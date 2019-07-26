@@ -152,4 +152,4 @@ class Infos:
 
 
 def setup(bot):
-    bot.add_cog(Info(bot))
+    bot.add_cog(Infos(bot))

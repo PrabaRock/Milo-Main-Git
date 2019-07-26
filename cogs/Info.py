@@ -3,7 +3,7 @@ from discord.ext import commands
 from ext.paginator import PaginatorSession
 
 
-class Infos:
+class Info:
     '''Get info for a user, server, or role.'''
 
     def __init__(self, bot):
@@ -152,4 +152,4 @@ class Infos:
 
 
 def setup(bot):
-    bot.add_cog(Infos(bot))
+    bot.add_cog(Info(bot))

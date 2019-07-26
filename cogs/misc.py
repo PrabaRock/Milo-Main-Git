@@ -7,7 +7,7 @@ import aiohttp
 import os
 
 
-class Fun:
+class Misc:
     '''Miscellaneous and fun commands.'''
 
     def __init__(self, bot):

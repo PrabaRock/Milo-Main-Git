@@ -5,7 +5,9 @@ import json
 import asyncio
 import random
 
-lient = commands.Bot(command_prefix="*")
+client = discord.Client()
+
+client = commands.Bot(command_prefix="*")
 client.remove_command('help')
 
 @client.event
